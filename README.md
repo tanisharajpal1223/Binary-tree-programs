@@ -28,3 +28,31 @@ Frees all dynamically allocated memory for nodes.
 
 2) Binary search tree
 
+
+Interactive menu program that allows the user to:
+Insert nodes into the BST.
+Delete nodes from the BST.
+Traverse and display the BST in Inorder, Preorder, and Postorder.
+Exit the program.
+
+
+Insertion
+The user inputs a value.
+A new node is created.
+The program finds the correct spot in the tree (left for smaller, right for larger) to insert the node.
+
+
+Traversal
+Inorder: Left subtree → Node → Right subtree (prints sorted values).
+Preorder: Node → Left subtree → Right subtree.
+Postorder: Left subtree → Right subtree → Node.
+
+Deletion
+The user inputs a value to delete.
+The program searches for that node.
+Once found, it deletes the node.
+
+
+
+smallest(): Finds the minimum value node in a subtree.
+largest(): Finds the maximum value node in a subtree.
